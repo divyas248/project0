@@ -1,0 +1,100 @@
+      .imageCentered{
+        text-align: center;
+        display: block;
+      }
+
+      .textCentered {
+        text-align: center;
+      }
+      .some-paragraph{
+        text-align: center;
+}
+      th, td {
+        border: 1px solid black;
+      }
+      @media (min-width: 1001px) {
+body {
+
+  background-color: beige;
+}
+}
+
+
+
+@media (max-width: 1000px) {
+body {
+  background-color: mistyrose;
+}
+}
+
+table{
+  margin-left: auto;
+  margin-right:auto;
+}
+
+#bold {
+  font-weight: bold;
+}
+h2+h3{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+th::selection {
+  color: blue;
+  background-color: yellow;
+}
+ul {
+  text-align: center;
+  display: block;
+  list-style-position: inside;
+
+}
+ul > li {
+  font-size: 12pt;
+  font-family: arial;
+  text-align: center;
+  display:block;
+}
+body>h1 {
+  text-align: center;
+}
+b
+h3 +a {
+  font-size: 13pt;
+}
+ a{
+   font-size: 13pt;
+   font-weight: bold;
+   text-align: center;
+   display: block;
+ }
+
+ h5{
+   text-align: center;
+   font-size: 12pt;
+   font-weight: 400;
+ }
+
+ h3 {
+   font-size: 12pt;
+   margin-left: 200pt;
+   margin-right: 200pt;
+ }
+
+
+  h4 {
+    font-size: 12pt;
+    margin-left: 200pt;
+    margin-right: 200pt;
+    text-align: center;
+  }
+  h5 {
+    font-size: 1vw;
+    margin-left:20%;
+    margin-right: 20%;
+  }
